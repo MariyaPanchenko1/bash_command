@@ -1,0 +1,51 @@
+Задание1
+$ cd
+$ pwd
+$ mkdir test1
+$ cd test1
+$ touch 1.txt 2.txt 3.txt
+$ ls
+$ cd
+$ mkdir test2
+$ rmdir test2
+$ rm test1/2.txt
+$ mkdir test3 && touch test3/file1 test3/file2
+$ rm -r test3
+$ mkdir test4
+$ mv test1/1.txt test1/3.txt test4/
+$ echo -e "line \nline \nline" >> test4/1.txt
+$ cat test4/1.txt
+$ cat test4/1.txt test4/3.txt
+$ nano test4/1.txt
+изменить строки, затем нажать Ctrl + O для сохранения изменений и Ctrl + X для выхода
+
+Задание2
+$ cd
+$ mkdir test3
+$ cd test3
+$ touch 4.txt 5.txt 6.txt
+$ echo -e "row1\nrow2\nrow3\nrow4" > 4.txt
+$ echo -e "row1\nrow2\nrow3\nrow4" > 5.txt
+$ echo -e "row1\nrow2\nrow3\nrow4" > 6.txt
+$ grep -i "row2" 5.txt
+$ grep -R "row"
+$ grep -c "row" 6.txt
+$ find -name "5.txt"
+$ find -name "5.txt" -exec rm {} \;
+$ echo "test" >> 4.txt
+$ sed -i 's/test/fail/g' 4.txt
+$ ps aux -ef
+$ taskkill /PID 666
+$ ping artsiomrusau.com
+$ ping -c 5 artsiomrusau.com
+$ curl https://petstore.swagger.io/v2/pet/findByStatus?status=pending
+$ curl -X POST -H "Content-Type: application/json" -d '{
+"id": 0,
+"username": "Anna777",
+"firstName": "Anna",
+"lastName": "Smirnova",
+"email": "Anna777@gmail.com",
+"password": "fghR2345",
+"phone": "123456789",
+"userStatus": 0
+}' https://petstore.swagger.io/v2/user

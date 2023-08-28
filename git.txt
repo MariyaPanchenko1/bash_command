@@ -1,0 +1,59 @@
+$ git clone https://github.com/testrusau/testrusau
+скопировала данные, сохранила
+$ git add README.md
+$ git commit -m "Скопирован шаблон readme.md"
+$ git push origin main
+изменила заголовок, сохранила
+$ git add README.md
+$ git commit -m "Изменен заголовок"
+изменила раздел "обо мне", сохранила
+$ git add README.md
+$ git commit -m "Изменен раздел Обо мне"
+изменила раздел Как связаться, сохранила
+$ git add README.md
+$ git commit -m "Изменен раздел Как связаться"
+изменила раздел соц сети, сохранила
+$ git add README.md
+$ git commit -m "Изменен раздел соц сети"
+изменила инструменты
+$ git add README.md
+$ git commit -m "изменен раздел Инструменты"
+$ git push origin main
+
+создала папку web_testing
+$ git init
+скопировала и отредактировала файл README.MD
+$ git add README.md
+$ git commit -m "Добавлен файл README"
+$ git remote add origin git@github.com:MariyaPanchenko1/web_testing.git
+$ git branch -M main
+$ git push -u origin main
+
+создала папку api_testing
+$ git init
+скопировала и отредактировала файл README.MD
+$ git add README.md
+$ git commit -m "Добавлен файл README"
+$ git remote add origin git@github.com:MariyaPanchenko1/api_testing.git
+$ git branch -M main
+$ git push -u origin main
+
+создала папку SQL
+$ git init
+скопировала и отредактировала файл README.MD
+$ git add README.md
+$ git commit -m "Добавлен файл README"
+$ git remote add origin git@github.com:MariyaPanchenko1/SQL.git
+$ git branch -M main
+$ git push -u origin main
+
+Открыла в VS Code папку Bash_command, созданную при выполнении прошлого задания, отредактировала файл README.MD
+$ git add README.md
+$ git commit -m "Отредактирован файл README"
+$ git push -u origin main
+
+Открыла в VS Code папку MariyaPanchenko1, созданную при выполнении прошлого задания, отредактировала файл README.MD, добавив тестовые артефакты
+$ git add README.md
+$ git commit -m "Отредактирован файл README"
+$ git push -u origin main
+
